@@ -168,6 +168,19 @@ html,body
 }
 
 
+.about{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.about h1 span{
+/*    color: linear-gradient(to right,#FFF222,#FFA726)*/
+    background: -webkit-linear-gradient(#FFF222,#FFA726);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 
 
 
