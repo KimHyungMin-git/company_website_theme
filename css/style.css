@@ -1,0 +1,176 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.test{
+    border: 5px solid;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.logo{
+/*    margin: -4px*/
+/*    border-radius: 5px;*/
+    box-sizing: content-box;
+    margin-top: -7px;
+    margin-bottom: -7px;
+    padding-top: 1px;
+    font-size: 22px;
+}
+
+.logo:hover{
+    background-color: #0d0d0d;
+}
+
+.nav_opt{
+    border-radius: 8px;
+}
+
+.nav_opt:hover{
+    background-color: #0d0d0d;
+}
+
+.nav-item{
+    margin-left: 8px;
+}
+
+/*
+.slide_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+*/
+
+/*
+.slide_img{
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+*/
+
+
+
+.highlight{
+    background: rgba(39,39,39,0.7);
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.highlight > h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.highlight > p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.member{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.linkedin-btn{
+    color: #ffffff;
+    background-color: #0073b0;
+    letter-spacing: 1px;
+    padding: 1px 6px 1px 6px
+}
+
+.linkedin-btn:hover{
+    color: #ffffff;
+    background-color: #0073b0;
+    letter-spacing: 1px;
+    padding: 1px 6px 1px 6px
+}
+
+.linkedin-btn:active{
+    color: #ffffff;
+    background-color: #0073b0;
+    letter-spacing: 1px;
+    padding: 1px 6px 1px 6px
+}
+
+.member{
+    font-family: 'Roboto', sans-serif;   
+}
+
+@media (max-width:1100px){
+    .slide{
+        margin-top: 50px;
+    }
+    .highlight{
+        margin-bottom: 75px;
+    }
+}
+
+@media (max-width:767px){
+    .slide{
+        margin-top: 55px;
+    }
+    .highlight{
+        margin-bottom: 45px;
+    }
+    .img-content{
+        margin-bottom: 30px;
+        margin-right: 40px;
+    }
+    .content h1{
+        text-align: left;
+    }
+}
+
+
+.bottom{
+    margin-bottom: 100px;   
+}
+
+.content{
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+    margin-bottom: 40px;
+/*    overflow: hidden; */
+}
+
+
+.content img{
+/*    padding-right: 30px;*/
+    border-radius: 5px;
+}
+
+.content p{
+    margin: 20px;
+    text-align: left;
+}
+
+.foot{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
